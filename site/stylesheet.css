@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Montserrat;
 }
 
 a {
@@ -12,7 +13,13 @@ a {
   color: white;
   text-align: center;
   background-image: url("background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
 
 .container {
   width: 1170px;
