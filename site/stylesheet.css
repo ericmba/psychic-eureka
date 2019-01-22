@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Montserrat;
+  font-family: "Montserrat";
 }
 
 a {
@@ -13,13 +13,7 @@ a {
   color: white;
   text-align: center;
   background-image: url("background-image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-@media only screen and (max-width: 600px) {
-  .example {background: red;}
-}
-
 
 .container {
   width: 1170px;
@@ -80,7 +74,7 @@ header {
 
 .logo {
   width: 124px;
-  margin-top: 20px;
+  padding: 10px 0;
 }
 
 .header-left {
@@ -175,14 +169,13 @@ header {
 }
 
 .heading {
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 30px;
   color: #5f5d60;
 }
 
 .heading h2 {
   font-weight: normal;
-  font-size: 50px;
 }
 
 .faq-wrapper {
